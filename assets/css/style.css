@@ -1,0 +1,1252 @@
+/* ===============Шрифты=============== */
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+/* ===============Шрифты=============== */
+
+
+
+/* ===============Переменные=============== */
+
+
+
+/* ===============Переменные=============== */
+
+
+
+/* ===============Модули=============== */
+.light-bg-color {
+    background: #FEE4DF;
+}
+
+.gradient-bg-primary {
+    background: linear-gradient(180deg, #ffac9f 30%, #F87661);
+}
+
+.gray-text-color {
+    color: #5A5A5A;
+}
+
+.doggy-card-pd-module {
+    padding: 1rem 1rem;
+}
+
+/* ===============Модули=============== */
+
+
+
+/* ===============Стили=============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFAF5;
+    width: 100%;
+}
+
+.container {
+    width: 85%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+}
+
+.nav__link {
+    color: #5A5A5A;
+    text-decoration: none;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+
+.nav__link:hover {
+    color: #8d8d8d;
+}
+
+.nav__select {
+    border: none;
+    color: #5A5A5A;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+
+.nav__select:hover {
+    color: #8d8d8d;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__title {
+    font-size: 24px;
+    font-family: "Poppins-Bold";
+    color: #42766C;
+}
+
+.contact-us__btn {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    background-color: #F87661;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    transition: .3s;
+    border: 2px solid #F87661;
+}
+
+.contact-us__btn:hover {
+    border: 2px solid #CF6251;
+    background-color: #CF6251;
+}
+
+.contact-us__btn:active {
+    background-color: transparent;
+    color: #F87661;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.header__info {
+    width: 43%;
+}
+
+.header__title {
+    color: #333333;
+    font-family: "Poppins-Bold";
+    font-size: 52px;
+    padding: 10px 0;
+}
+
+.header__paragraph {
+    color: #828282;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.header__images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 57%;
+}
+
+.header__cat {
+    width: 35%;
+}
+
+.header__dog {
+    width: 45%;
+}
+
+.testimoni__section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.testimoni {
+    padding: 2rem;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimoni__statistic {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.testimoni__stat-block {
+    color: #FFFFFF;
+}
+
+.testimoni__stat-title {
+    font-family: "Poppins-Regular";
+    font-size: 16;
+}
+
+.testimoni__stat-number {
+    font-family: "Poppins-SemiBold";
+    font-size: 36px;
+}
+
+.doggy-card {
+    border-radius: 30px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doggy-card__img-container {
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.doggy-card__text-container {
+    padding: 1rem;
+    color: #FFFFFF;
+}
+
+.doggy-card__title {
+    font-family: "Poppins-SemiBold";
+    font-size: 20px;
+}
+
+.doggy-card__paragraph {
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.services__text {
+    margin: 2rem;
+    text-align: center;
+    width: 45%;
+}
+
+.services__title {
+    font-family: "Poppins-SemiBold";
+    font-size: 48px;
+    color: #333333;
+}
+
+.services__subtitle {
+    color: #828282;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+}
+
+.services__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details__btn {
+    padding: 12px 16px;
+    margin-top: 1rem;
+    border-radius: 6px;
+    background-color: #F87661;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    transition: .3s;
+    border: 2px solid #F87661;
+}
+
+.details__btn:hover {
+    border: 2px solid #CF6251;
+    background-color: #CF6251;
+}
+
+.details__btn:active {
+    background-color: transparent;
+    color: #F87661;
+}
+
+.get-pet {
+    padding: 8rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.get-pet__left_container {
+    width: 165px;
+    height: 123px;
+    background: #FFCA0F;
+    border-radius: 999px;
+}
+
+.get-pet__text_container {
+    width: 45%;
+}
+
+.get-pet__title {
+    font-family: "Poppins-SemiBold";
+    font-size: 36px;
+    color: #333333;
+}
+
+.section__about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us {
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D9E4E2;
+    border-radius: 50px;
+}
+
+.about-us__media {
+    width: 50%;
+}
+
+.about-us__title {
+    padding-top: 1rem;
+    color: #333333;
+    font-size: 48px;
+    font-family: "Poppins-SemiBold";
+}
+
+.about-us__paragraph {
+    padding-top: 1rem;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #828282;
+}
+
+.about-us__checkbox {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins-SemiBold";
+    font-size: 20px;
+    color: #5A5A5A;
+}
+
+.about-us__checkbox > img {
+    width: 24px;
+    height: 24px;
+}
+
+.checkbox__text {
+    padding-left: 1rem;
+}
+
+.section__entry {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    padding: 5rem 0;
+    width: 100%;
+    background: linear-gradient(180deg, #66a196 30%, #355f57);
+}
+
+.entry {
+    width: 70%;
+}
+
+.entry__title {
+    font-family: "Poppins-SemiBold";
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.entry__paragraph {
+    width: 55%;
+    padding: 1rem 0;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.foot__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.section__news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.news__text {
+    padding: 2rem 0;
+    width: 45%;
+    text-align: center;
+}
+
+.news__title {
+    font-family: "Poppins-SemiBold";
+    font-size: 48px;
+    color: #333333;
+}
+
+.news__subtitle {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #828282;
+}
+
+.news__cards {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.news__card {
+    padding: 0.5rem;
+    width: 33%;
+    margin: 0.5rem;
+}
+
+.news__card_image {
+    width: 100%;
+}
+
+.news__card_title {
+    margin-top: 8px;
+    font-family: "Poppins-SemiBold";
+    font-size: min(20px, 28px);
+    color: #5A5A5A;
+}
+
+.news__card_paragraph {
+    margin-top: 8px;
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    color: #5A5A5A;
+}
+
+.read-more__btn {
+    padding: 12px 16px;
+    margin-top: 1rem;
+    border-radius: 6px;
+    background-color: #F87661;
+    color: #FFFFFF;
+    font-family: "Poppins-SemiBold";
+    font-size: 14px;
+    transition: .3s;
+    border: 2px solid #F87661;  
+}
+
+.read-more__btn:hover {
+    border: 2px solid #CF6251;
+    background-color: #CF6251;
+}
+
+.read-more__btn:active {
+    background-color: transparent;
+    color: #F87661;
+}
+
+.section__inst {
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.inst {
+    width: 100%;
+}
+
+.inst__text {
+    color: #333333;
+    text-align: center;
+}
+
+.inst__title {
+    padding: 1rem 0;
+    font-family: "Poppins-SemiBold";
+    font-size: 48px;
+}
+
+.inst__title > span {
+    color: #F87661;
+}
+
+.inst__images_parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inst__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 4rem;
+}
+
+.inst__images_container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+.inst__sm_image {
+    padding: 0.5rem;
+}
+
+.footer {
+    width: 100%;
+    padding: 2.5rem 0;
+    margin: 2.5rem 0;
+    border-top: 1px solid #FEE4DF;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__content {
+    width: 35%;
+}
+
+.footer__social_media {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    padding: 2.5rem 0 2rem 0;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #828282;
+}
+
+.footer__list {
+    width: fixed 15%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list_title {
+    padding: 0 0 1.5rem 0;
+    color: #5A5A5A;
+    font-family: "Poppins-SemiBold";
+    font-size: 20px;
+}
+
+.footer__link {
+    padding: 1rem 0 0 0;
+    text-decoration: none;
+    color: #5A5A5A;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+}
+
+.footer__link:hover {
+    color: #828282;
+    text-decoration: underline;
+}
+.footer__link:active {
+    color: #333333;
+}
+
+/* ===============Стили=============== */
+
+
+
+/* ===============Бургер=============== */
+.burger-menu{
+    display: none;
+}
+
+.burger-menu__toggle {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+}
+
+.burger-menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.burger-menu__btn span,
+.burger-menu__btn span::before,
+.burger-menu__btn span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: #5A5A5A;
+    transition: .6s;
+    border-radius: 100px;
+}
+
+.burger-menu__btn span::before{
+    content: "";
+    top: 8px;
+}
+
+.burger-menu__btn span::after{
+    content: "";
+    top: -8px;
+}
+
+.burger-menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #f2f2f2;
+    box-shadow: 1px 0px 6px #ffffff33;
+    transition: .6s;
+}
+
+.burger-menu__item {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-menu__link:hover {
+    background-color: #eee;
+}
+
+.burger-menu__toggle:checked ~ .burger-menu__btn > span {
+    transform: rotate(45deg);
+}
+
+.burger-menu__toggle:checked ~ .burger-menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+.burger-menu__toggle:checked ~ .burger-menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.burger-menu__toggle:checked ~ .burger-menu__box {
+    visibility: visible;
+    right: 0;
+}
+
+/* ===============Бургер=============== */
+
+
+
+/* ===============Aдаптивность=============== */
+
+/* ===============1200px=============== */
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 95%;
+    }
+
+    .contact-us__btn {
+        font-size: 16px;
+    }
+
+    .nav__link {
+        font-size: 24px;
+    }
+
+    .nav__select {
+        font-size: 32px;
+    }
+
+    .header__paragraph {
+        font-size: 18px;
+    }
+
+    .testimoni {
+        width: 95%;
+    }
+
+    .doggy-card__title {
+        font-size: 24px;
+    }
+
+    .doggy-card__paragraph {
+        font-size: 16px;
+    }
+
+    .about-us__paragraph {
+        font-size: 20px;
+    }
+
+    .entry {
+        width: 80%;
+    }
+
+    .entry__paragraph {
+        width: 65%;
+        font-size: 20px;
+    }
+
+    .foot__container {
+        width: 100%;
+    }
+
+    .news__text {
+        width: 60%;
+    }
+
+    .news__subtitle {
+        font-size: 20px;
+    }
+
+    .news__cards {
+        display: flex;
+        align-items: center;
+    }
+
+    .news__card {
+        width: 30%;
+    }
+
+    .news__card_title {
+        font-size: 28px;
+    }
+
+    .news__card_paragraph {
+        font-size: 24px;
+    }
+
+    .read-more__btn {
+        font-size: 20px;
+    }
+
+    .inst__images_parent {
+        width: 100%;
+    }
+
+    .inst__images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__container {
+        width: 95%;
+    }
+
+    .footer__social_media {
+        width: 45%;
+    }
+}
+
+/* ===============1200px=============== */
+
+/* ===============1024px=============== */
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav__container {
+        display: none;
+    }
+
+    .nav__link {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .contact-us__btn {
+        font-size: 20px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header__paragraph {
+        font-size: 20px;
+    }
+    
+    .testimoni {
+        justify-content: space-between;
+    }
+
+    .testimoni__statistic {
+        width: 50%;
+    }
+
+    .section__get-pet {
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-pet {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us {
+        width: 95%;
+    }
+
+    .entry {
+        width: 85%;
+    }
+
+    .entry__paragraph {
+        width: 80%;
+    }
+
+    .section__news {
+        width: 100%;
+    }
+
+    .news__text {
+        width: 80%;
+    }
+
+    .news__cards {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .news__card {
+        width: 65%;
+    }
+
+    .inst__images {
+        grid-gap: 2rem;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__text {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .footer__social_media {
+        width: 50%;
+    }
+}
+
+/* ===============1024px=============== */
+
+/* ===============768px=============== */
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100vw;
+    }
+
+    .nav__container {
+        display: none;
+    }
+
+    .contact-us__btn {
+        font-size: 20px;
+    }
+
+    .nav__link {
+        font-size: 32px;
+    }
+
+    .nav__select {
+        font-size: 32px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-menu__box {
+        width: 250px;
+    }
+
+    .header__content {
+        flex-direction: column;
+    }
+
+    .header__info {
+        width: 80%;
+    }
+
+    .header__paragraph {
+        font-size: 28px;
+    }
+
+    .header__images {
+        width: 80%;
+    }
+
+    .testimoni {
+        flex-direction: column;
+    }
+
+    .testimoni__statistic {
+        width: 100%;
+    }
+
+    .doggy-card {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .services__cards {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .get-pet {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .get-pet__left_container {
+        display: none;
+    }
+
+    .about-us {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us__media {
+        width: 90%; 
+    }
+
+    .about-us__paragraph {
+        font-size: 20px;
+    }
+
+    .about-us__image_container {
+        padding-top: 2rem;
+    }
+
+    .entry {
+        width: 90%;
+    }
+
+    .entry__paragraph {
+        width: 100%;
+    }
+
+    .section__news {
+        width: 100%;
+    }
+
+    .news__cards {
+        width: 100%;
+    }
+
+    .news__card {
+        width: 85%;
+    }
+
+    .inst__images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .inst__images_container {
+        width: 100%;
+    }
+
+    .inst__image {
+        width: 100%;
+    }
+
+    .footer__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__text {
+        text-align: center;
+        width: 60%;
+    }
+
+    .footer__social_media {
+        width: 30%;
+    }
+
+    .footer__list {
+        padding: 2rem 0 0 0;
+    }
+
+    .footer__list_title {
+        font-size: 24px;
+    }
+
+    .footer__link {
+        font-size: 18px;
+    }
+}
+
+/* ===============768px=============== */
+
+/* ===============500px=============== */
+
+@media screen and (max-width:500px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav__container {
+        display: none;
+    }
+
+    .nav__link {
+        font-size: 32px;
+    }
+
+    .nav__select {
+        font-size: 32px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-menu__box {
+        width: 220px;
+    }
+
+    .header__content {
+        flex-direction: column;
+    }
+
+    .header__info {
+        width: 80%;
+    }
+
+    .header__paragraph {
+        font-size: 24px;
+    }
+
+    .header__images {
+        width: 80%;
+    }
+
+    .testimoni {
+        width: 95%;
+    }
+
+    .testimoni__statistic {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .testimoni__stat-title {
+        font-size: 24px;
+    }
+
+    .testimoni__stat-number {
+        font-size: 48px;
+    }
+    
+    .doggy-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doggy-card__image {
+        width: 150px;
+    }
+
+    .doggy-card__text-container {
+        width: 100%;
+    }
+
+    .doggy-card__title {
+        font-size: 32px;
+    }
+
+    .doggy-card__paragraph {
+        font-size: 24px;
+    }
+
+    .details__btn {
+        font-size: 20px;
+    }
+
+    .services__text {
+        width: 90%;
+    }
+
+    .services__subtitle {
+        font-size: 24px;
+    }
+
+    .details__btn {
+        font-size: 24px;
+    }
+
+    .get-pet {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get-pet__text_container {
+        width: 90%;
+    }
+
+    .get-pet__image_container {
+        padding: 2rem;
+    }
+
+    .section__news {
+        width: 100%;
+    }
+
+    .news__cards {
+        width: 100%;
+    }
+
+    .news__card {
+        width: 100%;
+    }
+
+    .footer__list {
+        padding: 2rem;
+    }
+}
+
+/* ===============500px=============== */
+
+/* ===============340px=============== */
+
+@media screen and (max-width:340px) {
+    .container {
+        width: 100vw;
+    }
+
+    .nav__container {
+        display: none;
+    }
+
+    .contact-us__btn {
+        font-size: 16px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header__content {
+        flex-direction: column;
+    }
+
+    .header__info {
+        width: 80%;
+    }
+
+    .header__title {
+        font-size: 40px;
+    }
+
+    .header__paragraph {
+        font-size: 20px;
+    }
+
+    .header__images {
+        width: 80%;
+    }
+
+    .doggy-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doggy-card__image {
+        height: 150px;
+    }
+}
+
+/* ===============340px=============== */
+
+/* ===============Aдаптивность=============== */
